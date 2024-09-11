@@ -10,10 +10,10 @@ It has several testcases that perform actions imitating a real Linkedin User who
 ## Obstacles / Blockers: Linkedin Automation Prevention:
 Linkedin has a loop of infinite fetch requests when detecting the Cypress testing environment; therefore this testsuite does not work after logging in, since it gets paused waiting for all those never ending loops of security fetchs. Still, the rest of logic for all the actions is written in the code.
 ## Features include actions like: 
-* login
-* search
-* locate "Connect"(with user) buttons
-* Press Next Page if User finished clicking all available "Connect Buttons"
+* Login at the start
+* Search "IT Recruiter" (or whatever needed) and show results
+* Locate "Connect"(with user) buttons in the result page before going to the next one
+* Press Next Page if User finished clicking all available "Connect Buttons"; and the user did not add 100 people yet (Weekly Linkedin Limit is 100)
 * Stopping the test if the user added 100 contacts (or if tests reach a timeout)
 
 ## Instructions:
