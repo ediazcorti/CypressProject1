@@ -13,7 +13,7 @@ Linkedin has a loop of infinite fetch requests when detecting the Cypress testin
 * login
 * search
 * locate "Connect"(with user) buttons
-* Press Next Page if User finished cilcking all available "Connect Buttons"
+* Press Next Page if User finished clicking all available "Connect Buttons"
 * Stopping the test if the user added 100 contacts (or if tests reach a timeout)
 
 ## Instructions:
