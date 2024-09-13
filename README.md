@@ -17,9 +17,9 @@ Linkedin has a loop of infinite fetch requests when detecting the Cypress testin
 * Stopping the test if the user added 100 contacts (or if tests reach a timeout)
 
 ## Instructions:
-1. Edit the "User" and "Password" variables found in jsconfig.json
+1. Edit the "User" and "Password" variables found in jsconfig.json (I know it could also be taken from Fixture files yes)
 2. Run this project with npx cypress open on your IDE's terminal
 3. Observe how it breaks after logging into your user, with a chain of fetch requests for security against automated attacks (video example: https://youtu.be/jZQDxB7bZow) 
 
 ### Things that can be optimized:
-A couple of locators are searched by text labels which appear in the DOM as text generated in the user's system language, which has to be replaced with Class/ID Locators, has not been optimized yet for demonstration and practical reasons
+A couple of locators are searched by text labels which appear in the DOM as text generated in the user's system language, which has to be replaced with Class/ID Locators, has not been optimized yet for demonstration and practical reasons. I could set the user and password variables in fixture files instead of as environment variables.
